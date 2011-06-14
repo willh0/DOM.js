@@ -34,7 +34,7 @@ var DOM = (function() {
 
 	};
 
-	/*
+	/**
 	  Turns attributes object to a string.
 	  @function
 	  @param {Object} attrs Attributes to turn into an object.
@@ -48,7 +48,7 @@ var DOM = (function() {
 		return str;
 	};
 
-	/*
+	/**
 	  Creates a shortcut for creating DOM elements, like A({"href":"http://google.com"}, "link") instead of DOM.createDOM("a",{"href":"http://google.com"}, "link").
 	  @function
 	  @param {String} tag Name of the tag to create a shortcut for.
